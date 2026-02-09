@@ -170,5 +170,5 @@ Report จะแสดง:
 4. ดู [Playwright Documentation](https://playwright.dev) สำหรับข้อมูลเพิ่มเติม
 
 
-
+---
 
