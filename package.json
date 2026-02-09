@@ -1,0 +1,26 @@
+{
+  "name": "saucedemo-playwright-tests",
+  "version": "1.0.0",
+  "description": "Automated testing for Swag Labs (saucedemo.com) using Playwright",
+  "main": "index.js",
+  "scripts": {
+    "test": "cross-env PLAYWRIGHT_BROWSERS_PATH= playwright test",
+    "test:headed": "cross-env PLAYWRIGHT_BROWSERS_PATH= playwright test --headed",
+    "test:ui": "cross-env PLAYWRIGHT_BROWSERS_PATH= playwright test --ui",
+    "test:report": "playwright show-report",
+    "test:debug": "cross-env PLAYWRIGHT_BROWSERS_PATH= playwright test --debug",
+    "install:browsers": "cross-env PLAYWRIGHT_BROWSERS_PATH= npx playwright install"
+  },
+  "keywords": [
+    "playwright",
+    "testing",
+    "automation",
+    "saucedemo"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.41.0",
+    "cross-env": "^7.0.3"
+  }
+}
